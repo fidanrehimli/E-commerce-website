@@ -1,9 +1,8 @@
 import React from 'react'
 import "./Hero.css"
-import { FaRegHand } from "react-icons/fa6";
+import hand from "../Assets/hand.png"
 import { FaArrowRight } from "react-icons/fa";
-import { SiApacherocketmq } from "react-icons/si";
-
+import girl from "../Assets/girl.jpg"
 
 const Hero = () => {
   return (
@@ -13,7 +12,7 @@ const Hero = () => {
             <div>
                 <div className="hand-hand-icon">
                     <p>new</p>
-                    <FaRegHand className='handimg' />
+                    <img src={hand} alt="" />
                 </div>
                 <p>collections</p>
                 <p>for everyone</p>
@@ -24,7 +23,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="hero-right">
-        <SiApacherocketmq />
+        <img src={girl} alt="" />
         </div>
 
     </div>
